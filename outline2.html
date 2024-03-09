@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Northeastern Clubs</title>
+  <link href="newstyle.css" rel="stylesheet" type="text/css"/>
+     <div id="navbar">
+      <div class="circle">
+    </div> 
+       
+<div class="homePage">
+      <h5 class="headerbtm2"> 
+        <i><center><br>Browse clubs based on what you're interested in!</center></i> 
+      </h5>
+    </div>
+</head>
+  <script src="script.js"></script>
+<body>
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <div class="container">
+          <br>
+          <h2>Academic</h2>
+          <br>
+          <p> Academic clubs are focused on enhancing the intellectual environment outside the classroom. They often relate to specific areas of study, such as science, mathematics, literature, or business, and aim to deepen members' understanding and passion for their subjects through activities, discussions, and events.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <div class="container">
+          <br>
+          <h2>Cultural & Spiritual Life</h2>
+          <br>
+          <p>Cultural and Spiritual Life builds community, creates a sense of belonging, 
+          educates across differences, and promotes inclusion across the global network.
+        </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <div class="container">
+          <br>
+          <h2>Health & Well-being</h2>
+          <br>
+          <p> Find information about the many ways that Northeastern supports student health and well-being.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+     <div class="column">
+      <div class="card">
+        <div class="container">
+          <br>
+          <h2>Religious/Ethnic/National Clubs</h2>
+          <br>
+          <p>These clubs provide a space for students to connect with others who share similar religious beliefs, ethnic backgrounds, or national identities. They offer support, celebrate cultural traditions, and promote diversity and understanding across the campus community.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+
+  <script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+   
+    </center>
+  </body>
+</html>
